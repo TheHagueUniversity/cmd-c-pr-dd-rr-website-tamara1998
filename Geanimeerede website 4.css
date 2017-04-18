@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.container .left .hoofdmenu{
+	 background: #333333;
+	 width: 120px;
+	 border-width: 50px;
+	 text-align: center;
+}
+.welcome{
+	background: #DD1148;
+}
+header{
+	background: rgba(226,8,72,.7); 
+}
+footer{
+	background: #DD1148;
+}
+ul li{
+	list-style: none; 
+}
+.hoera{
+	padding: 20px;
+	border-width: 30px;
+	background: #333333; 
+	width: 135px;
+	text-align: center;
+}
+.hoofdmenu{
+	
+}
+.socialmedia{
+	
+}
+.phonenumber{
+	
+}
+.telefoonnummer{
+	
+}
+.follow{
+	
+}
+.sitemap{
+	
+}

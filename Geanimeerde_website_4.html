@@ -3,19 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>Huurformulier</title>
+	<link rel="stylesheet" type="text/css" href="Geanimeerde website 2.css">
 </head>
 <body>
 <div class="container">
-	<section>
+	<section class="left">
 		<nav class="hoofdmenu">	
 			<ul>
 				<li id="Logo">
-				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="Desktop/logo.jpg" alt=""></a>
 				</li>
-				<li><a href="index.innerhtml">Agenda</a></li>
-				<li><a href="index.innerhtml">Informatie</a></li>
-				<li><a href="index.innerhtml">Huren</a></li>
-				<li><a href="index.innerhtml">Contact us</a></li>
+				<li>Agenda</li>
+				<li>Informatie</li>
+				<li>Huren</li>
+				<li>Contact us</li>
 			</ul>
 		</nav>
 		<section>
@@ -29,34 +30,60 @@
 			</div>
 		</header>
 		<main>
-			
+			<form method="post" action="">
+				<fieldset> <!--Dit is het formulier om de huur aan te vragen voor Imperium Leiden-->
+					<label for="naam">Naam toneelgroep:</label>
+					<input type="text" name="toneelgroep">
+					<br>
+					<label for="reden huur">Reden voor huur theater:</label>
+					<input type="text" name="reden huur">
+					<br>
+					<label for="telefoonnummer">Telefoonnummer</label>
+					<input type="number" name="telefoonnummer">
+					<br>
+					<label for="data huren zaal">Data huren zaal:</label>
+					<input type="date" name="data huren zaal">
+					<br>
+					<label for="aantal shows">Aantal shows:</label>
+					<input type="number" name="aantal shows">
+					<br>
+					<label for="rekeningnummer">Rekeningnummer:</label>
+					<input type="number" name="rekeningnummer">
+					<br>
+					<input type="checkbox" name=" accepteer voorwaarden" value="huren" /> Accepteer voorwaarden
+					<p>
+						Lees voorwaarden hier.
+					</p>
+					<input type="submit" name="SEND">
+				</fieldset>
+			</form>
 		</main>
 	</div>
 	<footer>
 		<p>Follow us</p>
-		<a href="" class="social media"><img src="" alt=""/></a>
-		<a href="" class="social media"><img src="" alt=""/></a>
-		<a href="" class="phone number"><img src="" alt=""/></a>
+		<a href="" class="social media"><img src="Desktop/facebook.jpg" alt=""/></a>
+		<a href="" class="social media"><img src="Desktop/twitter-512.jpg" alt=""/></a>
+		<a href="" class="phone number"><img src="Desktop/mobile-512.png" alt=""/></a>
 		<p>Telefoon: 07-15141035</p>
 		<ul>
-			<li><a href="inex.html">Home</a></li>
-			<li><a href="index.html">Agenda</a></li>
-			<li><a href="index.html">Informatie</a>
+			<li>Home</li>
+			<li>Agenda</li>
+			<li>Informatie
 				<ul>
-					<li><a href="index.html">Faciliteiten</a></li>
-					<li><a href="index.html">Sfeerimpressie</a></li>
+					<li>Faciliteiten</li>
+					<li>Sfeerimpressie</li>
 				</ul>
 			</li>
-			<li><a href="index.html">Huren</a>
+			<li>Huren
 				<ul>
-					<li><a href="index.html">Huurformulier</a></li>
+					<li>Huurformulier</li>
 				</ul>
 			</li>
-			<li><a href="index.html">Contact us</a></li>
+			<li>Contact us</li>
 		</ul> <!--Dit is de sitemap dit is een extra steuntje voor het navigeren van de website-->
 		<p>E-mail ons voor meer informatie</p>
 		<h1 id="logo">
-			<a href="">Imperium theater<span></span></a>
+			<img src="Desktop/logo.jpg" alt=""/>
 		</h1>
 	</footer>
 </div>	

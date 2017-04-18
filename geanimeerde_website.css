@@ -8,11 +8,47 @@
 	 border-width: 50px;
 	 text-align: center;
 }
+.logo{
+	border: 2px solid #000000;
+	padding:5px;
+}
+.agenda{
+	border: 2px solid #000000;
+	padding:5px;
+	border-top: 1px;
+}
+.informatie{
+	border: 2px solid #000000;
+	padding:5px;
+	border-top: 1px;
+}
+.huren{
+	border: 2px solid #000000;
+	padding:5px;
+	border-top: 1px;
+}
+.contact{
+	border: 2px solid #000000;
+	padding:5px;
+	border-top: 1px;
+}
 .welcome{
 	background: #DD1148;
+	width: 250px;
+	border-width: 50px;
+	text-align: center;
+	width: 125px;
+	-moz-box-shadow: 5px 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px 5px #777777;
 }
-header, .sitecontainer{
-	background: rgba(226,8,72,.7); 
+.banner{
+	padding: 6px;
+	text-align: center;
+}
+header{
+	background: rgba(226,8,72,.7);
+	border-width: 30px;
 }
 footer{
 	background: #DD1148;
@@ -24,15 +60,26 @@ ul li{
 	padding: 20px;
 	border-width: 30px;
 	background: #333333; 
-	width: 135px;
+	width: 120px;
 	text-align: center;
+	
 }
 .hoofdmenu{
 	
 }
-h2{
-	width: 500px;
-	height: 300px;
-	display: block;
-	background:;
+.socialmedia{
+	
 }
+.phonenumber{
+	
+}
+.telefoonnummer{
+	
+}
+.follow{
+	
+}
+.sitemap{
+	
+}
+
